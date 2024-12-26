@@ -1,0 +1,98 @@
+<!doctypehtml>
+<html lang=pt-br>
+<meta charset=UTF-8>
+<meta content="IE=edge" http-equiv=X-UA-Compatible>
+<meta content="width=device-width,initial-scale=1" name=viewport>
+<link href=arquivos/logo-prefeitura.png rel="shortcut icon" type="icone prefeitura">
+<link href=imagens/erro.svg rel=icon type=image/x-icon>
+<link href=https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css rel=stylesheet crossorigin=anonymous integrity=sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ>
+<link href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css rel=stylesheet>
+<title>Ops,erro reportado!</title>
+<header class=header><img src=imagens/brasao-color.png alt=Brasão aria-hidden=true class=pt-2 height=100></header>
+<div class=content>
+    <div class="container mt-4">
+        <div class="align-items-center d-flex flex-wrap-reverse row">
+            <div class="col-lg-7 text-center text-lg-start">
+                <h1 class="bi bi-exclamation-triangle h1"> ATENÇÃO!</h1>
+                <h6 class=h6>Serviço Indisponível!</h6>
+                <p class=resumo>No momento, nosso serviço está temporariamente indisponível. Estamos trabalhando para resolvê-lo. Por favor, tente novamente em alguns instantes. Agradecemos sua compreensão!
+            </div>
+            <div class="col-lg-5">
+                <img src="imagens/erro503.svg" class="my-3 mx-auto"
+                width="100%"
+                height="auto" alt="Página de Erro 503">
+            </div>
+        </div>
+    </div>
+</div>
+<footer class=footer>
+    <p class=rodape>©MEBPG Desenvolvido por SEPLAN-Secretaria de Planejamento-2024-2025.</footer>
+<script crossorigin=anonymous integrity=sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe src=https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js></script>
+<style>
+    :root {
+        --cor-principal: #4ead3a;
+        --cor-secundaria: #0350a2;
+        --cor-fundo: #f4f4f4
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: "Source Sans" Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-size: 1rem
+    }
+
+    body {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh
+    }
+
+    .content {
+        flex: 1;
+        margin-top: 5%;
+    }
+
+    .header {
+        background-color: var(--cor-principal);
+        color: #fff;
+        text-align: center;
+        position: relative;
+        bottom: 0;
+        width: 100%
+    }
+
+    .footer {
+        background-color: var(--cor-secundaria);
+        color: #fff;
+        text-align: center;
+        position: relative;
+        bottom: 0;
+        width: 100%
+    }
+
+    p.rodape {
+        font-size: 1rem;
+        margin-top: 10px
+    }
+
+    .row {
+        align-items: center
+    }
+
+    img[alt="Brasão"] {
+        margin-bottom: 20px
+    }
+
+    .btn btn-primary {
+        background-color: var(--cor-principal)
+    }
+
+    @media (max-width:500px) {
+        p.rodape {
+            font-size: .8rem
+        }
+    }
+</style>
